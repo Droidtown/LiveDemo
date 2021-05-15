@@ -303,7 +303,7 @@ if __name__ == "__main__":
     #print("")
 
     # 輸入其它句子試看看
-    inputLIST = ["100塊人民幣可以換多少歐元"]
+    inputLIST = ["人民幣五十萬元可以換多少歐元"]
     filterLIST = []
     resultDICT = runLoki(inputLIST, filterLIST)
     print("Result => {}".format(resultDICT["result_list"]))
